@@ -1,0 +1,11 @@
+# HW 11 Markdown
+- check to make sure that the aray is not empty and that the color at the original position is not the given color
+- save the color at the original position
+- make a queue to store position's neighbors
+- then, add the original position to the queue
+- make a while loop for when the queue is not empty
+- remove the first position from the queue and save it into a variable 'location'
+- make an if statement for checking if the color at the orginal position is equal to the color at the current position
+- if so then, change the current color to the given color
+- and add all of its neighbors that aren't out of bound to the queue
+- once, the while loop is finished return the changed 2D array
