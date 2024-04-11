@@ -1,0 +1,14 @@
+# Lab6
+- make a array to store indegrees
+- make an adjanceny list
+- make a for loop to fill adj with arraylists
+- make a for loop to fill indegree array and put in adj
+- make a queue
+- Now the 0 indegree nodes have been found and added to the queue
+- make a number that counts all the removed nodes
+- While the queue is not empty
+- Remove a node from the queue.
+- increment the counter
+- For each outgoing edge from the node, decrement the indegree of the destination
+- If the in-degree of a destination node becomes 0, add it to the queue
+- then finally return true if the number is equal to the number of courses, otherwise false
