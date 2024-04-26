@@ -1,0 +1,11 @@
+# HW2 Markdown
+- create left boundary of the range
+- create right boundary of the range
+- Use a while loop to check while the left is less than the right
+- find the current half
+- check if the half we found is bad
+- if it is bad then we know it is on the left
+- then set the right range to the middle
+- otherwise, set the left range to the middle
+- return once we found the first bad
+- once you find an odd number, everything after is considered bad
