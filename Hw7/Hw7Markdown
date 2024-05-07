@@ -1,0 +1,7 @@
+# Hw7 Markdown
+- Have a base case for no meetings
+- sort the array by start time
+- have a priority queue min-heap
+- Add the first job to the heap
+- Add a for loop to add the rest of the meetings or jobs
+- Return minimum meeting rooms needed
