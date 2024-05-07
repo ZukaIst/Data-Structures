@@ -1,0 +1,9 @@
+# Hw 6 Markdown
+- Create a List of Lists of integers to return
+- Sort the given array using mergesort
+- Have a for loop iterate through the sorted array, skipping duplicates
+- Store the left and right bounds
+- Have a while loop to calculate the sum
+- If the sum is 0, add it to the list
+- Otherwise increate the left and right and continue
+- After the loop, return the list of lists
