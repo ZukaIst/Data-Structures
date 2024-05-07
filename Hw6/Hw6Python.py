@@ -1,14 +1,14 @@
-class Solution:
+aclass PythonHw6:
     # Merge sort function
     @staticmethod
     def merge_sort(arr, left, right):
         if left < right:
             mid = left + (right - left) // 2
             # Sort first and second halves
-            Solution.merge_sort(arr, left, mid)
-            Solution.merge_sort(arr, mid + 1, right)
+            PythonHw6.merge_sort(arr, left, mid)
+            PythonHw6.merge_sort(arr, mid + 1, right)
             # Merge sorted halves
-            Solution.merge(arr, left, mid, right)
+            PythonHw6.merge(arr, left, mid, right)
 
     @staticmethod
     def merge(arr, left, mid, right):
@@ -42,12 +42,12 @@ class Solution:
             j += 1
             k += 1
 
-    # Solution for the threeSum problem using merge sort
+    # PythonHw6 for the threeSum problem using merge sort
     @staticmethod
-    def three_sum(nums):
+    def threeSum(nums):
         result = []
         # Sort the array using merge sort
-        Solution.merge_sort(nums, 0, len(nums) - 1)
+        PythonHw6.merge_sort(nums, 0, len(nums) - 1)
 
         for i in range(len(nums) - 2):
             # Avoid duplicates for the current value of i
@@ -82,5 +82,5 @@ class Solution:
 # Test case example
 if __name__ == '__main__':
     nums = [-1, 0, 1, 2, -1, -4]
-    results = Solution.three_sum(nums)
+    results = PythonHw6.threeSum(nums)
     print(results)  # Expected output: [[-1, -1, 2], [-1, 0, 1]]
